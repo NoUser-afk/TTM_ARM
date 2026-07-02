@@ -1,0 +1,15 @@
+*.bsl text eol=crlf
+*.xml text eol=crlf
+*.mdo text eol=crlf
+*.json text eol=crlf
+*.txt text eol=crlf
+*.md text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.epf binary
+*.erf binary

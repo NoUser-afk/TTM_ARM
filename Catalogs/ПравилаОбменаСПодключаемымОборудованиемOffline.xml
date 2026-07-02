@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="805b114c-e832-46d7-b620-7e71a8f09881">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПравилаОбменаСПодключаемымОборудованиемOffline" category="Object">
+				<xr:TypeId>a16fe74a-a2f0-430c-8472-b3b91d05dca7</xr:TypeId>
+				<xr:ValueId>1017d713-044d-4062-84d5-049fbf33c7ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПравилаОбменаСПодключаемымОборудованиемOffline" category="Ref">
+				<xr:TypeId>b322a117-f20e-4124-b448-04fcb0273d2f</xr:TypeId>
+				<xr:ValueId>476c0cbd-72e7-431d-bc05-257ed6e1bd0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПравилаОбменаСПодключаемымОборудованиемOffline" category="Selection">
+				<xr:TypeId>561f3cec-0b81-4b30-9e84-8d7e3a75fe5a</xr:TypeId>
+				<xr:ValueId>7080769e-65bf-4054-881e-f63606cd7fd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПравилаОбменаСПодключаемымОборудованиемOffline" category="List">
+				<xr:TypeId>0bb55b10-982f-4d04-825f-03aec823d37d</xr:TypeId>
+				<xr:ValueId>6077a18a-0ea7-491a-83a3-f3e6e310f50c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПравилаОбменаСПодключаемымОборудованиемOffline" category="Manager">
+				<xr:TypeId>d54c90f1-b687-4a50-8928-815ec8eba24a</xr:TypeId>
+				<xr:ValueId>9c60b439-56b5-46d0-8ce6-b1be9dcba0a3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПравилаОбменаСПодключаемымОборудованиемOffline</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>27363ec4-6822-4db6-ae2e-c161bd247ae9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

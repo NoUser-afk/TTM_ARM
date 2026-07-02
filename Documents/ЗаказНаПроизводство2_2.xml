@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="011a3799-ab6b-4d4a-bb11-aeee2ef9dd73">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказНаПроизводство2_2" category="Object">
+				<xr:TypeId>512580e3-5011-4a23-b762-4f8a94893353</xr:TypeId>
+				<xr:ValueId>063d98ab-b587-4ab0-a122-e35c49da5ec0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказНаПроизводство2_2" category="Ref">
+				<xr:TypeId>aba2ec5a-f9d1-44cb-8bb4-817fff63429b</xr:TypeId>
+				<xr:ValueId>575e6120-d049-4e92-a8d5-007f6b802ae6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказНаПроизводство2_2" category="Selection">
+				<xr:TypeId>1f1e5250-0e41-4190-b7b8-7409e5b78935</xr:TypeId>
+				<xr:ValueId>4ed4327d-b34e-47d6-b6ee-738f211046d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказНаПроизводство2_2" category="List">
+				<xr:TypeId>277f54db-64c0-4dac-8e1c-4b11e8e6cefe</xr:TypeId>
+				<xr:ValueId>ad99e0de-a832-425b-ac4d-553f21fada32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказНаПроизводство2_2" category="Manager">
+				<xr:TypeId>6e98a715-f3a4-41a8-ad4c-b8457af30672</xr:TypeId>
+				<xr:ValueId>19e3f9c3-26a8-49b9-ac22-4a891ff419ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказНаПроизводство2_2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>04b45cc8-19da-4fc2-ab25-fcf16e66f5ee</ExtendedConfigurationObject>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ТТМ_ПланПроизводства</xr:Item>
+			</RegisterRecords>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="51047bf3-ee6a-40de-8958-ceb9d5a26264">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаказНаПроизводство2_2.Продукция" category="TabularSection">
+						<xr:TypeId>3f365e56-5e34-47cd-94be-101eaa508878</xr:TypeId>
+						<xr:ValueId>662fb1b1-dfd3-4924-b826-c8fc3ec17a8e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаказНаПроизводство2_2.Продукция" category="TabularSectionRow">
+						<xr:TypeId>b480a9ac-2523-4c0a-b82d-67d14cf1d47f</xr:TypeId>
+						<xr:ValueId>ce8b5f0a-28d7-4f56-a6c4-c95c6d5f3233</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Продукция</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0190487c-4b35-4793-bebb-cdc5d67bf079</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ba06fc11-66bf-4d2c-a91b-99782742ac58">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>dd131bed-f4cf-4ccb-8427-639b59bd5bf2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c5193be5-a8f2-4e8b-a833-dc7f38c02c7d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Спецификация</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ce2f7918-6eb6-44a1-9703-eaa30ed728d8</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.РесурсныеСпецификации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

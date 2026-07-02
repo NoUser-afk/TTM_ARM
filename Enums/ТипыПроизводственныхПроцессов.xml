@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="304affd5-24c7-4277-84b9-1624299ba828">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыПроизводственныхПроцессов" category="Ref">
+				<xr:TypeId>597f7707-cc98-4e2f-91c5-0ddb34c45657</xr:TypeId>
+				<xr:ValueId>e77c76cc-a6f8-41eb-b2b4-36eb91d0b68c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыПроизводственныхПроцессов" category="Manager">
+				<xr:TypeId>fa1ed441-7519-40f4-8394-149ac26f4fba</xr:TypeId>
+				<xr:ValueId>551e784d-637d-487d-8410-452db40f0b3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыПроизводственныхПроцессов" category="List">
+				<xr:TypeId>fb170096-8462-4b18-8af2-8b6a375428ce</xr:TypeId>
+				<xr:ValueId>f67564d2-c7f0-4e51-92c1-5ff9860e4b69</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыПроизводственныхПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>803dd55f-cc32-4983-912b-43b34afe2a71</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

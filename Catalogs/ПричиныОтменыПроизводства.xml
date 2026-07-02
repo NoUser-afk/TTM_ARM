@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="6678b233-dfc7-4cc0-8ea8-9ebee6d30313">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПричиныОтменыПроизводства" category="Object">
+				<xr:TypeId>ea55024f-ce76-421b-8bb0-b99f443c1025</xr:TypeId>
+				<xr:ValueId>4587eca6-45f4-49d5-bdc0-3edcd472bf6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПричиныОтменыПроизводства" category="Ref">
+				<xr:TypeId>a3febea1-63d6-471f-98f1-ebf38d0d887f</xr:TypeId>
+				<xr:ValueId>1549060d-8f92-4e59-827c-2299edc69175</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПричиныОтменыПроизводства" category="Selection">
+				<xr:TypeId>ce1e2f0e-5d9e-4ee9-b0ef-929662e1d914</xr:TypeId>
+				<xr:ValueId>052ae097-6738-4336-b0c8-26a0c6655c00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПричиныОтменыПроизводства" category="List">
+				<xr:TypeId>37b17070-4530-4ca5-806e-eb7ebc1d1b9a</xr:TypeId>
+				<xr:ValueId>ccfd86fa-f287-4650-a794-f033c8e9084c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПричиныОтменыПроизводства" category="Manager">
+				<xr:TypeId>dd2bb03e-269e-4fdf-a692-2ebaf8b2ab7c</xr:TypeId>
+				<xr:ValueId>0c8e8196-2222-4177-b059-dd66122958f7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПричиныОтменыПроизводства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f7e2df6d-c4b3-45d3-8a42-9a5d5c9c570f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

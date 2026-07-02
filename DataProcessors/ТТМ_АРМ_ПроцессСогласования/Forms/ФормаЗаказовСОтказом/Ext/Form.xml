@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Форма выбора заказов с отказом</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ШапкаФормыЗаказовСОтказом" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка формы заказов с отказом</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка формы заказов с отказом</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаФормыЗаказовСОтказомРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<Button name="ФормаПодтверждитьИзменения" id="32">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.ПодтверждитьИзменения</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.ChooseValue</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подтвердить</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ФормаПодтверждитьИзмененияРасширеннаяПодсказка" id="33"/>
+				</Button>
+				<InputField name="Ответственный" id="40">
+					<DataPath>Объект.Ответственный</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>false</ChoiceButton>
+					<ClearButton>false</ClearButton>
+					<SpinButton>false</SpinButton>
+					<OpenButton>false</OpenButton>
+					<CreateButton>false</CreateButton>
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="42"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСпискаЗаказовСОтказом" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказы с отказом</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа списка заказов с отказом</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Usual</Behavior>
+			<BackColor>web:GhostWhite</BackColor>
+			<ExtendedTooltip name="ГруппаСпискаЗаказовСОтказомРасширеннаяПодсказка" id="46"/>
+			<ChildItems>
+				<Table name="ЗаказыСОтказом" id="1">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ЗаказыСОтказом</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ЗаказыСОтказомКонтекстноеМеню" id="2"/>
+					<AutoCommandBar name="ЗаказыСОтказомКоманднаяПанель" id="3">
+						<ChildItems>
+							<Button name="ЗаказыСОтказомПереместитьВниз" id="51">
+								<Type>CommandBarButton</Type>
+								<Visible>false</Visible>
+								<CommandName>Form.Item.ЗаказыСОтказом.StandardCommand.MoveDown</CommandName>
+								<ExtendedTooltip name="ЗаказыСОтказомПереместитьВнизРасширеннаяПодсказка" id="52"/>
+							</Button>
+							<Button name="ЗаказыСОтказомПереместитьВверх" id="49">
+								<Type>CommandBarButton</Type>
+								<Visible>false</Visible>
+								<CommandName>Form.Item.ЗаказыСОтказом.StandardCommand.MoveUp</CommandName>
+								<ExtendedTooltip name="ЗаказыСОтказомПереместитьВверхРасширеннаяПодсказка" id="50"/>
+							</Button>
+							<Button name="ЗаказыСОтказомДобавить" id="47">
+								<Type>CommandBarButton</Type>
+								<Visible>false</Visible>
+								<CommandName>Form.Item.ЗаказыСОтказом.StandardCommand.Add</CommandName>
+								<ExtendedTooltip name="ЗаказыСОтказомДобавитьРасширеннаяПодсказка" id="48"/>
+							</Button>
+							<Button name="ЗаказыСОтказомСортироватьСписокПоВозрастанию" id="53">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Item.ЗаказыСОтказом.StandardCommand.SortListAsc</CommandName>
+								<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+								<ExtendedTooltip name="ЗаказыСОтказомСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="54"/>
+							</Button>
+							<Button name="ЗаказыСОтказомСортироватьСписокПоУбыванию" id="55">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Item.ЗаказыСОтказом.StandardCommand.SortListDesc</CommandName>
+								<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+								<ExtendedTooltip name="ЗаказыСОтказомСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="56"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ЗаказыСОтказомРасширеннаяПодсказка" id="4"/>
+					<SearchStringAddition name="ЗаказыСОтказомСтрокаПоиска" id="5">
+						<AdditionSource>
+							<Item>ЗаказыСОтказом</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаказыСОтказомСтрокаПоискаКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="ЗаказыСОтказомСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ЗаказыСОтказомСостояниеПросмотра" id="8">
+						<AdditionSource>
+							<Item>ЗаказыСОтказом</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаказыСОтказомСостояниеПросмотраКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="ЗаказыСОтказомСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ЗаказыСОтказомУправлениеПоиском" id="11">
+						<AdditionSource>
+							<Item>ЗаказыСОтказом</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаказыСОтказомУправлениеПоискомКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ЗаказыСОтказомУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="ChoiceProcessing">ЗаказыСОтказомОбработкаВыбора</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="ЗаказыСОтказомНомерСтроки" id="14">
+							<DataPath>Объект.ЗаказыСОтказом.LineNumber</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>1</Width>
+							<ContextMenu name="ЗаказыСОтказомНомерСтрокиКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ЗаказыСОтказомНомерСтрокиРасширеннаяПодсказка" id="16"/>
+						</LabelField>
+						<CheckBoxField name="ЗаказыСОтказомВыбрано" id="34">
+							<DataPath>Объект.ЗаказыСОтказом.Выбрано</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>V</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЗаказыСОтказомВыбраноКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ЗаказыСОтказомВыбраноРасширеннаяПодсказка" id="36"/>
+						</CheckBoxField>
+						<InputField name="ЗаказыСОтказомНазначение" id="17">
+							<DataPath>Объект.ЗаказыСОтказом.Назначение</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЗаказыСОтказомНазначениеКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ЗаказыСОтказомНазначениеРасширеннаяПодсказка" id="19"/>
+						</InputField>
+						<InputField name="ЗаказыСОтказомЗаказКлиента" id="20">
+							<DataPath>Объект.ЗаказыСОтказом.ЗаказКлиента</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЗаказыСОтказомЗаказКлиентаКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ЗаказыСОтказомЗаказКлиентаРасширеннаяПодсказка" id="22"/>
+						</InputField>
+						<CheckBoxField name="ЗаказыСОтказомСогласованоМенеджер" id="23">
+							<DataPath>Объект.ЗаказыСОтказом.СогласованоМенеджер</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Согласовано менеджер</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЗаказыСОтказомСогласованоМенеджерКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ЗаказыСОтказомСогласованоМенеджерРасширеннаяПодсказка" id="25"/>
+						</CheckBoxField>
+						<CheckBoxField name="ЗаказыСОтказомСогласованоСнабжение" id="37">
+							<DataPath>Объект.ЗаказыСОтказом.СогласованоСнабжение</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЗаказыСОтказомСогласованоСнабжениеКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ЗаказыСОтказомСогласованоСнабжениеРасширеннаяПодсказка" id="39"/>
+						</CheckBoxField>
+						<LabelField name="ЗаказыСОтказомСогласованоКонструктор" id="26">
+							<DataPath>Объект.ЗаказыСОтказом.СогласованоКонструктор</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Согласовано КБ</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЗаказыСОтказомСогласованоКонструкторКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="ЗаказыСОтказомСогласованоКонструкторРасширеннаяПодсказка" id="28"/>
+						</LabelField>
+						<LabelField name="ЗаказыСОтказомПричинаОтказа" id="29">
+							<DataPath>Объект.ЗаказыСОтказом.ПричинаОтказа</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЗаказыСОтказомПричинаОтказаКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ЗаказыСОтказомПричинаОтказаРасширеннаяПодсказка" id="31"/>
+						</LabelField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ТТМ_АРМ_ПроцессСогласования</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ВызовИзФормыМенеджера" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вызов из формы менеджера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВызовИзФормыКонструктора" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вызов из формы конструктора</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВызовИзФормыСнабжения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вызов из формы снабжения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПодтверждитьИзменения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подтверждить изменения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подтверждить изменения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодтверждитьИзменения</Action>
+		</Command>
+	</Commands>
+</Form>

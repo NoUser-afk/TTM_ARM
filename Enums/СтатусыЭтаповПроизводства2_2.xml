@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="1e55b395-834a-497d-b734-08400ef7ce82">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыЭтаповПроизводства2_2" category="Ref">
+				<xr:TypeId>97d74429-ac80-4ba6-9d81-c923c2cc0a0b</xr:TypeId>
+				<xr:ValueId>53efabf2-6300-4b1b-980a-434797f5d8fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыЭтаповПроизводства2_2" category="Manager">
+				<xr:TypeId>5f33cf33-561d-4442-b772-6d8c5587cd82</xr:TypeId>
+				<xr:ValueId>bf6155d9-f116-4856-a278-059155bbc0bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыЭтаповПроизводства2_2" category="List">
+				<xr:TypeId>6955eac5-d498-4b8a-b902-a73294d72a46</xr:TypeId>
+				<xr:ValueId>e7a7c84e-dcf7-4110-b7e4-cefdca196e8b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыЭтаповПроизводства2_2</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f8cfe6b7-a92d-45f1-bd06-9154e8657466</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="64101cab-7b68-4158-a709-a1c5f38941a1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Начат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>30315e1e-ef69-44aa-82df-31e95312033f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5ddc2725-ef1d-40e8-a60a-8c0f647154b2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Завершен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>624549dd-c62a-4621-8d54-8985090c24f8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

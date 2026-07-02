@@ -1,0 +1,33 @@
+# 1C generated/runtime files
+*.cf
+*.cfu
+*.dt
+*.1cd
+*.lgp
+*.lgf
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+*.bak
+*.backup
+*.old
+Thumbs.db
+Desktop.ini
+
+# 1C:EDT / Eclipse local workspace files
+.metadata/
+.recommenders/
+.settings/
+.project
+.classpath
+bin/
+target/
+
+# OS and editor local files
+.idea/
+.vscode/
+*.swp
+*.swo
+~$*

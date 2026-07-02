@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Загрузка материалов спецификации из таблицы</v8:content>
+		</v8:item>
+	</Title>
+	<Width>100</Width>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Группа7" id="1">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<Page name="ТабличныйДокумент" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Табличный документ</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ТабличныйДокументРасширеннаяПодсказка" id="22"/>
+					<ChildItems>
+						<UsualGroup name="Группа5" id="3">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="23"/>
+							<ChildItems>
+								<Button name="ОткрытьФайл" id="4">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОткрытьФайл</CommandName>
+									<ExtendedTooltip name="ОткрытьФайлРасширеннаяПодсказка" id="24"/>
+								</Button>
+								<Button name="СформироватьСписокНоменклатуры" id="5">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СформироватьСписокНоменклатуры</CommandName>
+									<ExtendedTooltip name="СформироватьСписокНоменклатурыРасширеннаяПодсказка" id="25"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа3" id="6">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="26"/>
+							<ChildItems>
+								<InputField name="тдПерваяСтрока" id="7">
+									<DataPath>тдПерваяСтрока</DataPath>
+									<ContextMenu name="тдПерваяСтрокаКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="тдПерваяСтрокаРасширеннаяПодсказка" id="28"/>
+								</InputField>
+								<InputField name="тдКолонкаНоменклатуры" id="8">
+									<DataPath>тдКолонкаНоменклатуры</DataPath>
+									<ContextMenu name="тдКолонкаНоменклатурыКонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="тдКолонкаНоменклатурыРасширеннаяПодсказка" id="30"/>
+								</InputField>
+								<InputField name="тдКолонкаКоличества" id="9">
+									<DataPath>тдКолонкаКоличества</DataPath>
+									<ContextMenu name="тдКолонкаКоличестваКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="тдКолонкаКоличестваРасширеннаяПодсказка" id="32"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа6" id="10">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="33"/>
+							<ChildItems>
+								<SpreadSheetDocumentField name="ТабДок" id="11">
+									<DataPath>ТабДок</DataPath>
+									<ShowHeaders>true</ShowHeaders>
+									<Edit>true</Edit>
+									<ContextMenu name="ТабДокКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="ТабДокРасширеннаяПодсказка" id="35"/>
+								</SpreadSheetDocumentField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="НоменклатураКСписанию" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура к загрузке</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="НоменклатураКСписаниюРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<Table name="Товары" id="13">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<DataPath>Товары</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТоварыКонтекстноеМеню" id="37"/>
+							<AutoCommandBar name="ТоварыКоманднаяПанель" id="14">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="ТоварыПеренестиВДокумент" id="15">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПеренестиВДокумент</CommandName>
+										<ExtendedTooltip name="ТоварыПеренестиВДокументРасширеннаяПодсказка" id="38"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="39"/>
+							<SearchStringAddition name="ТоварыСтрокаПоиска" id="40">
+								<AdditionSource>
+									<Item>Товары</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыСтрокаПоискаКонтекстноеМеню" id="41"/>
+								<ExtendedTooltip name="ТоварыСтрокаПоискаРасширеннаяПодсказка" id="42"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТоварыСостояниеПросмотра" id="43">
+								<AdditionSource>
+									<Item>Товары</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыСостояниеПросмотраКонтекстноеМеню" id="44"/>
+								<ExtendedTooltip name="ТоварыСостояниеПросмотраРасширеннаяПодсказка" id="45"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТоварыУправлениеПоиском" id="46">
+								<AdditionSource>
+									<Item>Товары</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="47"/>
+								<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="48"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ТоварыКодНоменклатуры" id="17">
+									<DataPath>Товары.КодНоменклатуры</DataPath>
+									<ContextMenu name="ТоварыКодНоменклатурыКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="ТоварыКодНоменклатурыРасширеннаяПодсказка" id="50"/>
+								</InputField>
+								<InputField name="ТоварыНоменклатура" id="18">
+									<DataPath>Товары.Номенклатура</DataPath>
+									<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="52"/>
+								</InputField>
+								<InputField name="ТоварыНоменклатураТекст" id="19">
+									<DataPath>Товары.НоменклатураТекст</DataPath>
+									<ContextMenu name="ТоварыНоменклатураТекстКонтекстноеМеню" id="53"/>
+									<ExtendedTooltip name="ТоварыНоменклатураТекстРасширеннаяПодсказка" id="54"/>
+								</InputField>
+								<InputField name="ТоварыКоличествоУпаковок" id="20">
+									<DataPath>Товары.КоличествоУпаковок</DataPath>
+									<ContextMenu name="ТоварыКоличествоУпаковокКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ТоварыКоличествоУпаковокРасширеннаяПодсказка" id="56"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ТабДок" id="1">
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="тдПерваяСтрока" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Первая строка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="тдКолонкаНоменклатуры" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонка номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="тдКолонкаКоличества" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонка количества</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Товары" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="КодНоменклатуры" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Номенклатура" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НоменклатураТекст" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст из файла</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КоличествоУпаковок" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОткрытьФайл" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть файл</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОткрытьФайл</Action>
+		</Command>
+		<Command name="СформироватьСписокНоменклатуры" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать список номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СформироватьСписокНоменклатуры</Action>
+		</Command>
+		<Command name="ПеренестиВДокумент" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести в документ</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПеренестиВДокумент</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="4ae3155f-e9de-4755-adc4-f60fbd608fc7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТехнологическиеПроцессы" category="Object">
+				<xr:TypeId>24958aef-d1f1-4466-994f-223394d89b97</xr:TypeId>
+				<xr:ValueId>4f664061-a3f5-40c7-b2d1-379cb2f310a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТехнологическиеПроцессы" category="Ref">
+				<xr:TypeId>fe11697d-f10b-4458-9048-ed8c1a912020</xr:TypeId>
+				<xr:ValueId>b8ec70c5-c944-40e7-8330-1e2283cccedf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТехнологическиеПроцессы" category="Selection">
+				<xr:TypeId>c74e60d6-2115-480e-bedb-91d647a9c501</xr:TypeId>
+				<xr:ValueId>5adda9ce-b751-44ea-a4ed-fe523ea3294e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТехнологическиеПроцессы" category="List">
+				<xr:TypeId>3bf985b8-6e96-4d90-bff5-3e8b7d008631</xr:TypeId>
+				<xr:ValueId>8eef25e6-71c5-46c0-a9f4-160575849752</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТехнологическиеПроцессы" category="Manager">
+				<xr:TypeId>60fbd9bf-d216-4959-a559-1e8e669d8c04</xr:TypeId>
+				<xr:ValueId>60cce682-be37-402d-8274-f268f3529ebe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТехнологическиеПроцессы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0c4ba074-fba7-4219-beb1-aa14228d561a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
