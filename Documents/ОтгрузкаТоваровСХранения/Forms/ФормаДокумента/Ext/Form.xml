@@ -245,6 +245,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="BeforeWrite" callType="Before">ТТМ_ПередЗаписью</Event>
 		<Event name="OnCreateAtServer" callType="Before">ТТМ_ПередСозданиемНаСервере</Event>
 		<Event name="OnCreateAtServer" callType="After">ТТМ_ПриСозданииНаСервереПосле</Event>
 	</Events>
