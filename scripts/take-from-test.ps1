@@ -16,7 +16,7 @@ foreach ($item in $Path) {
     git checkout $TestBranch -- $item
 }
 
-Write-Host "Copied selected path(s) from $TestBranch into $currentBranch:" -ForegroundColor Green
+Write-Host "Copied selected path(s) from $TestBranch into ${currentBranch}:" -ForegroundColor Green
 $Path | ForEach-Object { Write-Host "  $_" }
 Write-Host ""
 Write-Host "Review with: git diff --stat prod..HEAD; git diff -- $($Path -join ' ')" -ForegroundColor Cyan
