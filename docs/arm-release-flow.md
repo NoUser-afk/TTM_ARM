@@ -28,20 +28,20 @@ This repository keeps production and test 1C ARM dumps in Git so approved change
 Compare production and test:
 
 ```powershell
-.\scripts\compare-arm.ps1
+.\scripts\compare-arm.cmd
 ```
 
 Create a release branch from production:
 
 ```powershell
-.\scripts\start-release.ps1 -Name 2026-07-02-arm
+.\scripts\start-release.cmd 2026-07-02-arm
 ```
 
 Take approved files from `test` into the current release branch:
 
 ```powershell
-.\scripts\take-from-test.ps1 -Path "CommonModules/ТТМ_Производство/Ext/Module.bsl"
-.\scripts\take-from-test.ps1 -Path "Documents/ОтгрузкаТоваровСХранения/Forms/ФормаСписка.xml","Documents/ОтгрузкаТоваровСХранения/Forms/ФормаСписка/Ext/Form.xml"
+.\scripts\take-from-test.cmd "CommonModules/ТТМ_Производство/Ext/Module.bsl"
+.\scripts\take-from-test.cmd "Documents/ОтгрузкаТоваровСХранения/Forms/ФормаСписка.xml" "Documents/ОтгрузкаТоваровСХранения/Forms/ФормаСписка/Ext/Form.xml"
 ```
 
 Review selected changes:
