@@ -355,7 +355,6 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
-			<Form>ФормаСписка</Form>
 			<TabularSection uuid="80e3de42-02f4-410e-af92-13578576df9b">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ОтгрузкаТоваровСХранения.Товары" category="TabularSection">
